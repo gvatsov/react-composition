@@ -1,6 +1,5 @@
-import React from "react";
 import { MonolithicComposer } from "./MonolithicComposer";
-import { Composer } from "./ComposedComposer";
+import { Composer } from "./composer";
 import "./styles.css";
 
 export default function App() {
@@ -29,6 +28,7 @@ export default function App() {
         <Composer.Footer>
           <div style={{ display: "flex", gap: "8px" }}>
             <Composer.IconButton icon="📎" />
+            <Composer.FormattingButton />
             <Composer.Checkbox label="Also send to channel" />
           </div>
           <Composer.SendButton label="Reply" />
