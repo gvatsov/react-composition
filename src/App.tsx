@@ -1,5 +1,5 @@
-import { MonolithicComposer } from "./MonolithicComposer";
-import { Composer } from "./composer";
+import { MonolithicComposer } from "./monolithic-composer";
+import { Composer } from "./composed-composer";
 import "./styles.css";
 
 export default function App() {
